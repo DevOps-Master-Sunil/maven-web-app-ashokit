@@ -12,6 +12,22 @@
 		<sonar.host.url>http://43.204.212.234:9000/</sonar.host.url>
 		<sonar.login>squ_a628fff52b538ed4e92d1cb3246908d4b289082d</sonar.login>
 	</properties>
+
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.201.59.39:8081/repository/maven-web-app-ashokit-snapshot/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.201.59.39:8081/repository/maven-web-app-ashokit-release/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   
   <dependencies>
     <dependency>
